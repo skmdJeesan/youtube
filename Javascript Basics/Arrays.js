@@ -14,4 +14,7 @@
 
 //2d array : it is joke here in js
 let brr = [[1,2,3],[4,5,6],'jeesan',69.69,true,false];
-console.log(brr);
+//console.log(brr);
+
+const result = brr.filter( ele => ele !== 69.69 )
+console.log(result);
